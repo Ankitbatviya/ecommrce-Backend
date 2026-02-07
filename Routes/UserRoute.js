@@ -9,7 +9,7 @@ import {
     deleteUser,          // Add this import
     getUserStats         // Add this import
 } from '../Controller/UserController.js';
-import { authenticateToken, isAdmin } from '../Middleware/auth.js';
+import { authenticateToken, isAdmin } from '../middleware/auth.js';
 
 const router = express.Router();
 

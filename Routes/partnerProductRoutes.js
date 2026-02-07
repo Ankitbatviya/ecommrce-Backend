@@ -6,7 +6,7 @@ import {
   updatePartnerProduct,
   deletePartnerProduct
 } from '../Controller/PartnerProductController.js';
-import { authenticateToken, isPartner } from '../Middleware/auth.js';
+import { authenticateToken, isPartner } from '../middleware/auth.js';
 
 const router = express.Router();
 

@@ -1,7 +1,7 @@
 // Routes/termsRoutes.js
 import express from 'express';
 import { getTerms, getAllTerms, updateTerms } from '../Controller/TermsController.js';
-import { authenticate, requireAdmin } from '../Middleware/auth.js'; // 
+import { authenticate, requireAdmin } from '../middleware/auth.js'; // 
 
 const router = express.Router();
 

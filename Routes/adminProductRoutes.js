@@ -7,7 +7,7 @@ import {
   deleteProduct,
   getProductStats
 } from '../Controller/AdminProductController.js';
-import { authenticateToken, isAdmin } from '../Middleware/auth.js';
+import { authenticateToken, isAdmin } from '../middleware/auth.js';
 
 const router = express.Router();
 
