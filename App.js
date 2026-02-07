@@ -45,6 +45,6 @@ app.use((req,res) => res.status(404).json({
   message: 'Route Not Found 404'
 }))
 
-app.listen(8000 , () =>{
+app.listen(process.env.PORT || 8000 , () =>{
     console.log('Server Started....')
 }) 
